@@ -1,0 +1,19 @@
+1)What is DOM?
+ DOM is Document Object Model. Its like a representation of HTML Pages  in parent child tree like structure .
+
+ Document = HTML
+ OBJECT = Node element
+
+2)What is Virtual DOM?
+React gives a Virtual DOM , Its  an exact 
+copy of DOM kept in memory and synced with the real DOM.
+
+3)How Virtual DOM works?
+In an Original DOM earlier when we used to change a Node,
+then along with it all its child were also rerendered which is costly process.
+
+React maintains two tree , which is the Updated  VDOM and the Pre-Updated VDOM.
+It will check the difference between both and will only make changes to the Orignal DOM for thr changed Nodes.
+
+React pass those chnages in batches as required.
+

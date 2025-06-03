@@ -1,0 +1,6 @@
+Recat is composable or Component based.
+Components are very similar to functions or classes  in javascript
+Difference in naming convention is that the first letter will be in Capiltal letter.
+
+1)Functional Components  :Similar to Functions in javascript
+2)Class-Based Components  : Similar to classes in Javascript
