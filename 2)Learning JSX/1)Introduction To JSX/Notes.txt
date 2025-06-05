@@ -1,0 +1,16 @@
+1)What is JSX?
+
+Ans:It is a syntax extenstion to javascript known as javascript XML
+Official Doc link : https://legacy.reactjs.org/docs/introducing-jsx.html
+
+2)Why JSX?
+a)React embraces the fact that rendering logic should be coupled with UI logic.
+b)Helpful as a visual aid when working with Ui inside Javascript.
+c)React seperates  concerns instead of seperating technologies.
+d)it allows react show more useful error and warning messages.
+
+
+Topics will be covered
+1)Basic syntax of JSX
+2)How to embed Javascript inside JSX
+3)To create static Uis in React using JSX
