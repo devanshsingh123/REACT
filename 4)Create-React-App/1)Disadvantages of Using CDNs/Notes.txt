@@ -1,0 +1,10 @@
+1)What is the Disadvantages of using CDNs?
+You need a proper internet connection and server of these packages must be active online.
+
+2)Using packages via CDNs makes the Html code more heavy and as you make a complex app then 100s of js file might be used
+and using a CDNs for those js file package will make the HTML file very difficult to handle.
+
+3)If we are using multiple js files and its components then ordering of these js file in js in html will matter as well.
+
+4)and using multiple js file in HTMl while using CDNs then it becomes a challenge for  browser to define link between 
+the files and hence the need of using Webpack is required.

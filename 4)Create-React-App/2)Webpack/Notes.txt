@@ -1,0 +1,37 @@
+1)its a module Bundler.
+example: using App.js , form.js,button.js,app.css. 
+So the Module budler will create a bundle of above mention files and will also have dependency among them.
+
+and the final file will be bundle.js
+
+
+2) to configure webpack.
+webpack.configure.js
+requirements:
+a)Entry property(like a index.js/pass the path )
+b)the entry point will have all the imports
+c)Webpack will first look at all the imports in entry point and check if  tranform is needed.
+The need to tranform is there because browser only understand (HTML,CSS,JS[ES5]).
+if some code is wriiten in ES6 then webpack will covert it into ES5.
+and if some js files is of Sass the it is tranformed into Css.
+
+3)These tranformation is done Using Loaders.
+We write code in this loaders and we can specify what to tranform .
+
+4)Ouput: After bundling the files and tranforming the code . then this code will need a path for it to be put somewhere.
+That path is defined in Output property . General path is "dist/build"
+
+and while putting the output, the code might need plugins 
+and they need to be told to webpack what we are going to use .
+it helps us to inject script tag and other thing required .
+
+
+## We don not have to do this manually , we have tool  which has inbuilt webpack.
+and that tool is Create-react-app. 
+
+Bedore using this tool we need to install some tools require to use this 
+
+
+
+
+
