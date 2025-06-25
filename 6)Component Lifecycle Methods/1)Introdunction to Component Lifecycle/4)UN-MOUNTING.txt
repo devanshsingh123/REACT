@@ -1,0 +1,8 @@
+  UN-Mounting
+
+  1)componentWillUnmount()
+
+  it will be invoked just before the Component is  getting destroyed.
+  No side effect or setState allowed.
+   This is the besst place to un-subscribe from any services to free space or revert all the network
+   call and clear the interval of any timers. 

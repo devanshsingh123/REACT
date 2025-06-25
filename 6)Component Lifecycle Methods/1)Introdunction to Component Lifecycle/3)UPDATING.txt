@@ -1,0 +1,42 @@
+Updating Phase
+
+
+Methods are written in the sequence they are called in their lifecyclye phase.
+While updating the Component the render function is called .
+
+
+
+1)static getDerivedStateFromProps()  -- rarely used
+No side effects perfomed in this method 
+
+
+
+
+2)shouldComponentUpdate()   --rarely used
+
+
+This method is used for optimization and deciding wether you want to re render the component or not .It returns a boolean value. 
+By default it gives true value as for any changes re render happens .
+
+No side Effect and setSate inside this ,only use to decide weather to re render component.
+
+
+3)render() -- pure function
+Its shallowly compares the previous and current state and does'nt re render .
+
+
+
+4)getSanpShotBeforeUpdate()
+This mehtod returns us some value which is called snapshot .
+it inovokes just before the changes are reflected from Virtual DOM to Real DOM. If we have some value to componentDidUpadate we use this sanpshot
+
+
+it is rarely used.
+
+
+
+
+
+5)componentDidUpdate() 
+It very similar to componentDidMount(), all the things are allowed here aswell.
+The only difference is its invoked on each re render but it will not be invoked on the first instance when the COmponent is created .

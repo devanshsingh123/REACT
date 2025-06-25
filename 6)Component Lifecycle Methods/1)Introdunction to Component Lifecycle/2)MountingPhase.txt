@@ -1,0 +1,34 @@
+Mounting Phase Methods:
+
+1)constructor():
+It is the method which gets called whenever a new Component is created.
+its used when we have to intialize the state or bind the method.
+Its the only place where state can be modeified directly and in other 
+places we use setStae method.
+
+Note: Avoid any side Effects and also use of setState should not be used in Constructor.
+
+
+2)Static getDerivedStateFromProps() -- Rarely Used
+its rarely used but it is used in cases where setting the sate based on the props comming .
+it is invoked just before render function
+
+Note:No sideEffects should be performe
+
+
+3)render()
+
+It is the only required function in the class based Components.
+It returns JSX for a class.
+It should be a pure function (that is no side effect and predictable)
+
+Note: Avoid any side Effects.
+
+
+4)componentDidMount()
+
+It is the function which is invoked when the COmponent is 
+finished mounted in the DOM .
+
+It is used to perform any side Effect.
+It also allow to use setState here.

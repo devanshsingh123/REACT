@@ -1,0 +1,4 @@
+Whta are hooks?
+1)React focusses on seperations of concern and hooks allows it to implements this .
+2)Hooks are  functions that let you hook into React state and lifecycle features from functional components.
+

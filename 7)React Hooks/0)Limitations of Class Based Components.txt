@@ -1,0 +1,7 @@
+Problems with Class-Based Components?
+1)Hard to reuse the stateful logic between components.
+
+2)Complex Components become difficult to understand
+
+3)Classed can be confusing at times .
+

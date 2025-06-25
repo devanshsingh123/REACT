@@ -1,0 +1,35 @@
+1)What is the term Lifecycle?
+
+Componenet Lifecycle: It is the series of stages through which a Component 
+passes from the beginning of its life until its death.
+
+Here beignning for ife means created/Inserted into the DOM
+known as Mounted.
+
+death means removed from the DOM or Un-Mounted.
+
+
+2)Different Phases of a Component Lifecycle!
+
+a) MOUNTING:When an instance of a COmponent is being 
+created and inserted into the DOM.
+
+b)UPDATING: WHen a Component is being re-rendered as a result of changes done 
+to its props or state.
+
+c)UN-MOUNTING: When a Component is being removed 
+from the DOM
+
+d)ERROR HANDLING: When there is an Error during rendering.
+
+
+3)What are Side-Effects?
+
+There are actions which are not predictable because they are actions
+which are perfomed with the "outside world".
+
+Examples : 
+A) Interaction with the Browser APIs. i.e. local Storage.
+B) Native DOM methods (i.e. document.getElementById  ..) instead of React DOM.
+C)Fetching the Data Using an API (HTTP requests)
+D)Subscribing to Database services
