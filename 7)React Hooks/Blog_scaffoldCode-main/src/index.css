@@ -13,19 +13,6 @@
     
 }
 
-.login-section{
-   padding: 15px;
-  padding-left: 15px;
-  margin:auto;
-  max-width: 60%;
-  border-radius: 10px;
-  font-weight: bolder;
-  font-family: Georgia, 'Times New Roman', Times, serif;
-  display:block;
-  align-self: center;
-  text-align: center;
-}
-
 .blog{
   max-width: 60%;
   background-color: rgb(192, 237, 236);
@@ -67,6 +54,7 @@ label{
 
 h2{
  font-family:Georgia, 'Times New Roman', Times, serif;
+ color: rgb(98, 0, 255);
  text-align: center;
  margin-top: 10px;
 
